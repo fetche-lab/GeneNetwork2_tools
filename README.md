@@ -6,7 +6,7 @@ This is a Python program designed and written to convert `genotype files` and `p
 All dependencies needed for this program are found in `requirements.txt`.
 - To install the package, users can run the following command:
   ```bash
-  pip install git+https://github.com/fetche-lab/GeneNetwork2_tools.git
+  pip install git+https://github.com/fetche-lab/rqtl2_to_bimbam.git
   ```
 # Running rqtl2_to_bimbam 
 Once the tool is installed, the following are the commands one can run to convert genotype or phenotype files from rqtl2 format to bibam format 
