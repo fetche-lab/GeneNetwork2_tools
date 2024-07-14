@@ -6,7 +6,7 @@ def convert_rqlt2pheno_to_bimbam():
     # Set up the argument parser 
     parser = argparse.ArgumentParser(description='Convert RQTL2 phenotype files to BIMBAM format')
     parser.add_argument('--phenotype_file', required=True, help='Path to the phenotype file (CSV)')
-    parser.add_argument('--num_rows', type=int, default=None, help='Number of rows to process (default: all)')
+    parser.add_argument('--num_rows', type=int, default=None, help='Number of rows to process {NB; make sure the number of rows correspond to the number of column values in genotype file} (default: all)')
     parser.add_argument('--output_file', required=True, help='Path to the output BIMBAM file (CSV)')
     parser.add_argument('--na_encoding', default='NA', help='Encoding for missing values (default: NA)')
 

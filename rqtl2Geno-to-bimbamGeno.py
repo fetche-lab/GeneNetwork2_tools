@@ -5,7 +5,7 @@ def convert_rqtl2geno_to_bimbam():
     # Set up the argument parser
     parser = argparse.ArgumentParser(description='Convert RQTL2 genotype files to BIMBAM format')
     parser.add_argument('--genotype_file', required=True, help='Path to the genotype file (CSV)')
-    parser.add_argument('--alleles_file', required=True, help='Path to the alleles file (CSV)')
+    parser.add_argument('--alleles_file', required=True, help='Path to the alleles file {The file headers should be minor and major repsectively} (CSV)')
     parser.add_argument('--output_file', required=True, help='Path to the output BIMBAM file (CSV)')
     parser.add_argument('--encoding', required=True, help='Encoding scheme for the genotype data (e.g., "AA=0,AB=1,BB=2")')
     parser.add_argument('--na_encoding', default='NA', help='Encoding for missing values (default: NA)')
