@@ -21,7 +21,7 @@ Once the tool is installed, the following are the commands one can run to conver
  - To convert the genotype file, the `--genotype_file`, `-allele_file` and `--encoding` options are necessary as they provide the requirements for the bimbam format.
  - To convert the phenotype file, the `--no_rows` is important to specify the number of rows to be processed which should correspond to the number of column values in genotype file.
  - Optionally, for both, genotype and phenotype conversions, one can use the --na_encoding to format for the empty values. The default is 'NA'.
- - The `examples_files` folder contains example files for rqlt2 files and the corresponding bimbam files.
+ - The `examples_files` folder contains example files for rqlt2 files in `input` folder and the corresponding bimbam files in the `output` folder.
  - To get help, one can run the following option;
  - For genotype;
    ```bash
