@@ -8,7 +8,7 @@ setup(
     name='rqtl2_to_bimbam',
     version='1.0.0',
     description='Convert RQTL2 files to BIMBAM format',
-    author='Your Name',
+    author='Felix Lisso',
     packages=find_packages(),
     install_requires=[
         'pandas',
