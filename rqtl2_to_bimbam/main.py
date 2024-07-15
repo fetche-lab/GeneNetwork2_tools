@@ -19,6 +19,11 @@ def main():
     # Parse the arguments
     args = parser.parse_args()
 
+    # If the --help argument is provided, display the help message and exit
+    if args.help:
+        parser.print_help()
+        return
+
     # Call the appropriate conversion function based on the command-line arguments
     if args.genotype_file and args.alleles_file:
         convert_rqtl2geno_to_bimbam(args.genotype_file, args.alleles_file, args.output_file, args.encoding, args.na_encoding)
