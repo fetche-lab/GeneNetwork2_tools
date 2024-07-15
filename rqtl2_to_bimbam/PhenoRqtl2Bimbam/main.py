@@ -1,5 +1,7 @@
 # main.py
-
+"""
+main.py file for the rqtl2_to_bimbam package.
+"""
 import argparse
 import pandas as pd
 
