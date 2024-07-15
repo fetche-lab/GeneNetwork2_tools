@@ -15,8 +15,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'Geno-Rqlt2Bimbam = rqtl2_to_bimbam.GenoRqtl2Bimbam.main:convert_rqtl2geno_to_bimbam',
-            'Pheno-Rqtl2Bimbam = rqtl2_to_bimbam.PhenoRqtl2Bimbam.main:convert_rqlt2pheno_to_bimbam'
+            'Geno-Rqlt2Bimbam = rqtl2_to_bimbam.main:convert_rqtl2geno_to_bimbam',
+            'Pheno-Rqtl2Bimbam = rqtl2_to_bimbam.main:convert_rqlt2pheno_to_bimbam'
         ],
     },
 )
