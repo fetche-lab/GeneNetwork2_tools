@@ -1,0 +1,8 @@
+README.md
+setup.py
+rqtl2_to_bimbam.egg-info/PKG-INFO
+rqtl2_to_bimbam.egg-info/SOURCES.txt
+rqtl2_to_bimbam.egg-info/dependency_links.txt
+rqtl2_to_bimbam.egg-info/entry_points.txt
+rqtl2_to_bimbam.egg-info/requires.txt
+rqtl2_to_bimbam.egg-info/top_level.txt
